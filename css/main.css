@@ -1,0 +1,375 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: pp-neue-montreal;
+}
+
+h1{
+    font-family: ryhmes-text;
+    font-weight: normal;
+    font-size: 2.25rem;
+    letter-spacing: -0.1rem;
+    line-height: 120%;
+}
+
+h2{
+    font-family: ryhmes-text;
+    font-weight:normal;
+    font-size: 1.5rem;
+    letter-spacing: -0.05rem;
+    line-height: 110%;
+}
+
+h3{
+    font-family: pp-neue-montreal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 0.02rem;
+}
+
+h4{
+    font-family: pp-neue-montreal;
+    font-weight: 530;
+    letter-spacing: 0.02rem;
+    font-size: 0.75rem;
+    margin-bottom: 0;
+}
+
+p{
+    font-family: pp-neue-montreal;
+    font-size: .9rem;
+    line-height: 150%;
+}
+
+strong{
+    font-family: pp-neue-montreal;
+    font-weight: 530;
+    margin-bottom: 0;
+}
+
+.text-link{
+    font-family: pp-neue-montreal;
+    font-size: .9rem;
+    line-height: 150%;
+    color:  rgb(105, 105, 105);
+    text-decoration: none;
+}
+
+nav{
+    overflow: hidden;
+}
+
+
+nav ul li a{
+    display: block;
+    margin: 0 1rem;
+    text-align: center;
+    font-weight:medium;
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: black;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav ul li.left a:hover {
+    text-decoration: underline;
+}
+
+.footer-content h3{
+        font-size: 0.8rem;
+}
+
+.footer-content a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer-content a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.footer-credits{
+    color: rgb(105, 105, 105);
+}
+
+
+/* Home Page – Projects */
+.intro-subtext p{
+    font-size: 0.95rem;  
+}
+  
+.project-title{
+      margin-top: -0.4rem;
+}
+
+.projects-singular img{
+    max-width: 99%;
+}
+
+.project-description{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    margin: 0;
+}
+
+.grey-text{
+   color: rgb(105, 105, 105);
+}
+
+@media (max-width: 875px){
+    h1 {
+        font-family: ryhmes-text;
+        font-weight: normal;
+        font-size: 1.75rem;
+    }
+    .intro-subtext p {
+        font-size: 0.85rem;
+    }
+
+}
+
+
+/* Projects Page */
+
+.project-intro{
+      margin-top: 5rem;
+}
+
+.project-name h1{
+    font-family: ryhmes-text;
+    font-weight: light;
+    font-size: 6rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.project-type h3{
+    font-weight: 530;
+}
+
+
+.project-team h3{
+    font-size: 0.65rem;
+    color: rgb(105, 105, 105);
+}
+
+.project-contribution h3{
+    font-size: 0.65rem;
+    color: rgb(105, 105, 105);
+}
+
+.bolded-light{
+    color: rgb(105, 105, 105);
+    font-size: 0.7rem;
+}
+
+
+.project-img-wide img{
+    max-width: 100%;
+}
+
+.project-img-zero-margin img{
+    max-width: 100%;
+}
+
+.project-img-as img{
+    max-width: 100%;
+}
+
+#videoPlaceholder{
+    width: 100%;
+    height: auto;
+}
+
+.content-container video{
+    max-width: 100%;
+    margin: 0;
+}
+
+.content-grid video{
+    max-width: 100%;
+}
+
+.image-caption h4{
+    font-family: rhymes-text;
+    font-weight: light;
+    letter-spacing: -0.2px;
+}
+
+.overview h1{
+    font-size: 2.7rem;
+    letter-spacing: -0.05rem;
+}
+
+.overview h3{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.col-6-right h4{
+    font-size: 0.95rem;
+    margin-bottom: -0.55rem;
+}
+
+.caption-container h4{
+    font-family: rhymes-text;
+    font-weight: light;
+    letter-spacing: -0.2px;
+    font-size: 0.75rem;
+}
+
+.research h3{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.precedent-designer h3{
+    margin: 4rem 0 1rem 0;
+}
+
+.research-quotes h3{
+    font-family: ryhmes-text;;
+    font-weight: normal;
+    font-size: 1.25rem;
+    color: rgb(105, 105, 105); 
+    margin: 0;
+}
+
+.research-quotes p{
+    font-family: ryhmes-text;;
+    font-size: 1.25rem;
+    margin-top: 3.75rem;
+}
+
+.quotes{
+    font-family: ryhmes-text;
+    margin-top: 3rem;
+}
+
+.quotes-source{
+    font-size: 0.75rem;
+    color: rgb(105, 105, 105);
+    margin-bottom: 3rem;
+}
+
+.solution h3{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.margin-top{
+    margin-top: 1.5rem;
+}
+
+
+@media (max-width: 600px){
+    .project-name h1{
+        font-size: 5.2rem;
+        margin-bottom: 0;
+        margin-top: 1.5rem;
+    }
+
+    .overview h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 540px){
+    .project-name h1{
+        font-size: 4rem;
+        margin-bottom: 0;
+        margin-top: 1.5rem;
+    }
+}
+
+
+/* MEDIA QUERIES FOR MOBILE DEVICES */
+@media (max-width: 420px){
+    .project-name h1{
+        font-size: 3.2rem;
+        margin-bottom: 0;
+        margin-top: 1.5rem;
+    }
+
+    .content-container h1 {
+        font-size: 1.75rem;
+        letter-spacing: -0.05rem;
+    }
+
+    .content-container h3 {
+        font-weight: bolder;
+        font-size: 0.95rem;
+        margin-bottom: 3rem;
+    }
+
+    .content-container p{
+        font-size: 14px;
+        line-height: 160%;
+    }
+    
+}
+
+
+/* Project Details: Amsterdam Sinfonietta */
+
+
+.amsterdam-sinfonietta h1{
+    font-size: 5rem;
+    letter-spacing: -0.05rem;
+    margin: 0;
+}
+
+
+
+.cymhsu h1{
+    font-size: 5rem;
+    letter-spacing: -0.05rem;
+    margin: 0;
+}
+
+
+
+/* ABOUT PAGE */
+
+.about-img-small img{
+    width: 100%;
+}
+
+.about-right-side .quotes{
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.about-me{
+     margin-top: 8rem;
+     font-size: 0.85rem;
+}
+
+
+@media (max-width: 705px){
+    .about-right-side .quotes {
+        margin-top: 0;
+        font-size: 0.85rem;
+    }
+    .quotes-source {
+        font-size: 0.65rem;
+    }
+    .about-me{
+        margin-top: 8rem;
+        font-size: 0.8rem;
+   }
+}
+
+
+
+
+
+

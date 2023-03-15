@@ -1,0 +1,28 @@
+@font-face {
+    font-family: pp-neue-montreal;
+    src: url("../fonts/PPNeueMontreal-Medium.otf");
+    font-weight: 530;
+  }
+  
+  @font-face {
+    font-family: pp-neue-montreal;
+    src: url("../fonts/PPNeueMontreal-Book.otf");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: ryhmes-text;
+    src: url("../fonts/RyhmesTextTrial-Light.otf");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: rhymes-text;
+    src: url("../fonts/RyhmesTextTrial-Light.otf");
+    font-weight: 300;
+  }
+
+
+  
+
+  
