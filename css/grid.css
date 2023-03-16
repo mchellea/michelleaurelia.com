@@ -82,7 +82,19 @@ nav ul{
 
 
 .intro-text{
+    grid-column: span 4;
+}
+
+@media (max-width: 2000px){
+    .intro-text{
+    grid-column: span 6;
+    }
+}
+
+@media (max-width: 1400px){
+    .intro-text{
     grid-column: span 7;
+    }
 }
 
 .intro-status{
@@ -292,12 +304,20 @@ nav ul{
 }
 
 .about-right-side{
-    grid-column: 8 / span 4;
+    grid-column: 8 / span 3;
     margin-top: 15rem;
 }
 
 .about-work{
     margin-top: 2rem;
+}
+
+
+@media (max-width: 1500px){
+    .about-right-side{
+        grid-column: 8 / span 4;
+        margin-top: 15rem;
+    }
 }
 
 
@@ -365,6 +385,12 @@ nav ul{
         display: block;
         margin: 1rem 3.75rem;
     }
+
+    .content-grid-zero-margin{
+        display: block;
+        margin: 1rem 3.75rem;
+    }
+    
 }
 
 @media (max-width: 800px){
@@ -405,6 +431,9 @@ nav ul{
 
     .intro-subtext{
         grid-column: span 2;
+    }
+    .caption-container{
+        display: block;
     }
 }
 
@@ -483,6 +512,7 @@ nav ul{
 }
 
 
+
 @media (max-width: 480px){
     .about-container{
         display: flex;
@@ -495,6 +525,13 @@ nav ul{
         width: 100%;
     }
 
+    .intro-text{
+        grid-column: span 6;
+    }
+
+    .intro-subtext{
+        grid-column: span 4;
+    }
 
 }
 

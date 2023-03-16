@@ -270,6 +270,24 @@ nav ul li.left a:hover {
 }
 
 
+/* Project Details: Amsterdam Sinfonietta */
+
+
+.amsterdam-sinfonietta h1{
+    font-size: 5rem;
+    letter-spacing: -0.05rem;
+    margin: 0;
+}
+
+
+
+.cymhsu h1{
+    font-size: 5rem;
+    letter-spacing: -0.05rem;
+    margin: 0;
+}
+
+
 @media (max-width: 600px){
     .project-name h1{
         font-size: 5.2rem;
@@ -315,24 +333,6 @@ nav ul li.left a:hover {
         line-height: 160%;
     }
     
-}
-
-
-/* Project Details: Amsterdam Sinfonietta */
-
-
-.amsterdam-sinfonietta h1{
-    font-size: 5rem;
-    letter-spacing: -0.05rem;
-    margin: 0;
-}
-
-
-
-.cymhsu h1{
-    font-size: 5rem;
-    letter-spacing: -0.05rem;
-    margin: 0;
 }
 
 
