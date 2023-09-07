@@ -113,6 +113,10 @@ nav ul li a:hover::after {
     opacity: 1;
 }
 
+.project-section-img-cs img {
+    opacity: 0.75; 
+}
+
 
 .footer-content h3{
         font-size: 0.8rem;
