@@ -215,6 +215,28 @@ nav ul li a:hover::after {
 
 
 /* Projects Page */
+#password {
+    padding: 12px 15px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Add a border to the input field */
+    border-radius: 4px; /* Add border-radius for rounded corners */
+    flex: 1; /* Allow the input field to grow and take remaining space */
+}
+
+#password-button {
+    background-color: transparent; /* Transparent background */
+    color: #141414; /* Dark text color */
+    padding: 12px 20px; /* Adjust padding as needed */
+    border: none; /* No border */
+    border-radius: 0 4px 4px 0; /* Adjust border-radius for the button */
+    cursor: pointer; /* Cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth transition on background-color */
+}
+
+#password-button:hover,
+#password-button:focus {
+    background-color: #e6e6e6; /* Background color on hover or focus */
+}
 
 .project-intro{
       margin-top: 5rem;
@@ -362,7 +384,7 @@ nav ul li a:hover::after {
 
 
 .cymhsu h1{
-    font-size: 5rem;
+    font-size: 4.5rem;
     letter-spacing: -0.05rem;
     margin: 0;
 }

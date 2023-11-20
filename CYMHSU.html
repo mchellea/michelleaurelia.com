@@ -6,7 +6,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>CYMHSU</title>
+        <title>VCH</title>
 
         <link href="css/main.css" rel="stylesheet">
         <link href="css/fonts.css" rel="stylesheet">
@@ -37,7 +37,7 @@
 
             <div class="project-bottom">
                 <div class="project-name">
-                    <h1>Vancouver CYMHSU</h1>
+                    <h1>Vancouver Coastal Health</h1>
                 </div>
                 <div class="project-side">
                     <div class="project-team">
@@ -64,11 +64,23 @@
     </div>
 
            <!-- MAIN CONTENT -->
-
            <div class="content-container">
+           <section class="overview fade-in">
+            <h1> Triaging system for Vancouver Children Youth and Mental Health Unit for Clinic Referral, based on user's catchment area.</h1>
+           
+           
+            <!-- Password Form -->
 
-            <section class="overview fade-in">
-             <h1> Triaging system for Vancouver Children Youth and Mental Health Unit for Clinic Referral, based on user's catchment area.</h1>
+            <p>Content under password protection – enter password to see my contributions.</p>
+
+            <div id="password-form" class="password-form">
+                <label for="password">Enter password:</label>
+                <input type="password" id="password" name="password" required>
+                <button id="password-button" onclick="checkPassword()">Submit</button>
+            </div>
+
+            <div id="content" style="display: none;">
+
  
              <div class="content-grid">
                  <div class="col-6-right fade-in">
@@ -105,7 +117,7 @@
  
         </div>
 
-
+        </div>
       
 
      <footer class="footer-container">
@@ -137,6 +149,8 @@
         </div>
             
     </footer>
+
+    <script src="script.js"></script>
 
     </body>
 

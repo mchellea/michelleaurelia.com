@@ -220,6 +220,16 @@ nav ul{
     margin: .75rem 0 0 0;
 }
 
+.col-6-right-margin-3{
+    grid-column: 10 / span 6;
+    margin-top: 3rem;
+}
+
+
+.col-6-right-margin-3 .project-img-wide{
+    margin: .75rem 0 0 0;
+}
+
 .no-margin{
     margin-top: 1rem;
 }
