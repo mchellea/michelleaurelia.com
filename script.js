@@ -33,11 +33,9 @@ function checkPassword() {
   var correctPassword = 'xiaolongbao'; 
 
   if (enteredPassword === correctPassword) {
-      // Password is correct, display the content
-      document.getElementById('password-form').style.display = 'none';
+      document.getElementById('password-form').classList.add('hidden');
       document.getElementById('content').style.display = 'block';
   } else {
-      // Incorrect password, you may display an error message here
       alert('Sorry! Wrong password. Please try again.');
   }
-}
+}d

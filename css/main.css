@@ -201,6 +201,7 @@ nav ul li a:hover::after {
    color: rgb(105, 105, 105);
 }
 
+
 @media (max-width: 875px){
     h1 {
         font-family: ryhmes-text;
@@ -215,28 +216,73 @@ nav ul li a:hover::after {
 
 
 /* Projects Page */
+.password-form {
+    margin-top: 20px;
+        transition: height 0.5s ease-out;
+        overflow: hidden;
+        height: auto; 
+    }
+    
+    #password-form.hidden {
+        height: 0;
+        padding: 0;
+        margin: 0;
+    }
+
 #password {
-    padding: 12px 15px; /* Adjust padding as needed */
-    border: 1px solid #ccc; /* Add a border to the input field */
-    border-radius: 4px; /* Add border-radius for rounded corners */
-    flex: 1; /* Allow the input field to grow and take remaining space */
+    width: 25%;
+    padding: 12px 1px;
+    border: none;
+    border-bottom: 1px solid #ccc; 
+    border-radius: 0; 
+    flex: 1;
+}
+
+
+#password::placeholder {
+    text-align: left;
 }
 
 #password-button {
-    background-color: transparent; /* Transparent background */
-    color: #141414; /* Dark text color */
-    padding: 12px 20px; /* Adjust padding as needed */
-    border: none; /* No border */
-    border-radius: 0 4px 4px 0; /* Adjust border-radius for the button */
-    cursor: pointer; /* Cursor on hover */
-    font-size: 16px; /* Font size */
-    transition: background-color 0.3s ease; /* Smooth transition on background-color */
+    background-color: transparent;
+    color: #141414;
+    padding: 12px 1px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+}
+
+#password-button::before,
+#password-button::after {
+    content: "(";
+    position: absolute;
+    left: -7px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#password-button::after {
+    content: ")";
+    left: auto;
+    right: -7px;
 }
 
 #password-button:hover,
 #password-button:focus {
-    background-color: #e6e6e6; /* Background color on hover or focus */
+    color: #141414; 
 }
+
+#password-button:hover::before,
+#password-button:focus::before,
+#password-button:hover::after,
+#password-button:focus::after {
+    opacity: 1;
+}
+
+
 
 .project-intro{
       margin-top: 5rem;
@@ -389,8 +435,14 @@ nav ul li a:hover::after {
     margin: 0;
 }
 
+@media (max-width: 800px){
+    #password {
+        width: 65%;
+    }
+}
 
 @media (max-width: 600px){
+
     .project-name h1{
         font-size: 5.2rem;
         margin-bottom: 0;
@@ -469,9 +521,3 @@ nav ul li a:hover::after {
         font-size: 0.8rem;
    }
 }
-
-
-
-
-
-
