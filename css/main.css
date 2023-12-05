@@ -452,9 +452,17 @@ nav ul li a:hover::after {
     .overview h1 {
         font-size: 1.8rem;
     }
+
+    .cymhsu h1{
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 540px){
+    .cymhsu h1{
+        font-size: 3rem;
+    }
+
     .project-name h1{
         font-size: 4rem;
         margin-bottom: 0;
