@@ -511,10 +511,13 @@ nav ul li a:hover::after {
 }
 
 .about-me{
-     margin-top: 8rem;
+     margin-top: 7rem;
      font-size: 0.85rem;
 }
 
+.about-me-no-margin{
+    font-size: 0.85rem;
+}
 
 @media (max-width: 705px){
     .about-right-side .quotes {
@@ -525,7 +528,10 @@ nav ul li a:hover::after {
         font-size: 0.65rem;
     }
     .about-me{
-        margin-top: 8rem;
+        margin-top: 7rem;
         font-size: 0.8rem;
    }
+   .about-me-no-margin{
+    font-size: 0.8rem;
+}
 }
