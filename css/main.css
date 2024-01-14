@@ -64,6 +64,9 @@ nav{
     overflow: hidden;
 }
 
+img {
+max-width: 100%;
+}
 
 nav ul li a{
     display: block;
@@ -328,6 +331,8 @@ nav ul li a:hover::after {
 .project-img-as img{
     max-width: 100%;
 }
+
+
 
 #videoPlaceholder{
     width: 100%;
