@@ -86,7 +86,7 @@ nav ul{
 
 @media (max-width: 2000px){
     .intro-text{
-    grid-column: span 6;
+    grid-column: span 7;
     }
 }
 
